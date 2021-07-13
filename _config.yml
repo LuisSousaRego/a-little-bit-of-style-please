@@ -21,7 +21,9 @@ theme_config:
 
 markdown: kramdown
 highlighter: rouge
-    input: GFM
+kramdown:
+  input: GFM
+
 
 sass:
   style: :compressed
