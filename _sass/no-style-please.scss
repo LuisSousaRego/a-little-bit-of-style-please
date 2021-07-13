@@ -43,7 +43,7 @@ p { margin: 1rem 0; }
 
 li { margin: 0.4rem 0; }
 
-*:target { background: red; }
+*:target { background: yellow; }
 
 .w {
   max-width: 640px;
@@ -75,7 +75,7 @@ code {
 div.highlighter-rouge code {
   display: block;
   overflow-x: scroll;
-  white-space: nowrap;
+  white-space: pre-wrap;
   padding: 1rem;
 }
 
