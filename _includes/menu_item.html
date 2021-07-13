@@ -3,6 +3,8 @@
     <li>
     {%- if item.url -%}
       <a href="{{ item.url }}">{{ item.title }}</a>
+    {%- elsif item.url_out -%}
+      <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
     {%- else -%}
       {{ item.title }}
     {%- endif -%}
