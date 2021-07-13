@@ -70,12 +70,11 @@ table, th, td {
 code {
   color: white;
   background: black;
-  white-space: nowrap;
 }
 
 div.highlighter-rouge code {
   display: block;
-  overflow-x: auto;
+  overflow-x: scroll;
   white-space: pre-wrap;
   padding: 1rem;
 }
