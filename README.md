@@ -7,4 +7,4 @@ A fork of [no style, please](https://github.com/riggraz/no-style-please) with a 
 * url_out on menu opens links in a new tab
 
 ## things I want to change
-. add syntax highlight to codeblocks
+* add syntax highlight to codeblocks
