@@ -41,6 +41,14 @@ hr {
   &:after { content: attr(data-content) '/////' }
 }
 
+a:link {
+  color: #F7EA00;
+}
+
+a:visited {
+  color: #E48900;
+}
+
 table { width: 100%; }
 
 table, th, td {
